@@ -1,0 +1,900 @@
+body {
+          margin: 0;
+          padding: 0;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+nav {
+          background-image: url(head.png);
+          background-size: cover;
+
+}
+
+.main {
+          background-image: url(main1.jpeg);
+          background-size: 98% 100%;
+          background-repeat: none;
+          height: 700px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+li a {
+          list-style: none;
+          text-decoration: none;
+          color: black;
+          margin-left: 20px;
+          font-size: 20px;
+          padding: 5px;
+}
+
+.head {
+          position: relative;
+          top: 200px;
+          left: 250px;
+          padding: 12px;
+          align-items: center;
+          width: 500px;
+          height: auto;
+          justify-content: center;
+
+}
+
+.head h1 {
+          font-size: 42px;
+          font-weight: bolder;
+          margin-top: -3px;
+}
+
+.head h6 {
+          font-size: 13px;
+
+}
+
+.head .btn {
+          border-radius: 30px;
+          padding: 12px 20px;
+
+
+}
+
+
+.main2 {
+          padding: 82px;
+
+}
+
+.conatiner {
+          padding: 50px;
+}
+
+.container h2 {
+          margin-left: 33px;
+}
+
+.container p {
+          margin-left: 33px;
+
+}
+
+.bussiness {
+          padding: 50px;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          background-color: #f69f0085
+}
+
+.bussiness h2 {
+          color: white;
+}
+
+.cardp {
+          display: flex;
+          column-gap: 40px;
+          justify-content: center;
+
+
+}
+
+#img1 {
+          height: 200px;
+}
+
+#img2 {
+          height: 200px;
+}
+
+#img3 {
+          height: 200px;
+}
+
+.hottest h2 {
+          padding: 60px;
+          margin-left: 180px;
+
+
+}
+
+.card {
+          height: 60px;
+
+}
+
+.card-body {
+          background-color: #f69f0085
+}
+
+.card-body p {
+          color: white;
+}
+
+.card .btn2 {
+          position: absolute;
+          top: 50%;
+          left: 22%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: #f69f0085;
+          color: rgb(0, 0, 0);
+          font-size: 16px;
+          padding: 5px;
+          border: none;
+          cursor: pointer;
+          border-radius: 14px;
+}
+
+
+.fire {
+          margin-top: 50px;
+
+}
+
+.para {
+          margin-top: 280px;
+          padding: 60px;
+          margin-left: 180px;
+}
+
+.para img {
+          width: 252px;
+          margin: 5px;
+}
+
+.second {
+          height: 170px;
+
+}
+
+.third {
+          height: 170px;
+}
+
+.images {
+          margin-top: 40px;
+}
+
+.images1 {
+          margin-top: 10px;
+}
+
+.stock {
+          padding: 50px;
+          justify-content: center;
+          background-color: #f69f0085
+}
+
+.stock .btn {
+          border-radius: 30px;
+          padding: 12px 20px;
+          background-color: white;
+          float: right;
+          margin-top: -67px;
+          margin-right: 260px;
+}
+
+.stock h5 {
+          color: white;
+          margin-left: 260px;
+}
+
+.stock h1 {
+          color: white;
+          margin-left: 260px;
+
+}
+
+.container1 {
+          padding: 50px;
+}
+
+.container1 h2 {
+
+          text-align: center;
+          margin-top: 10px;
+}
+
+.num {
+          display: flex;
+          margin-left: 10pc;
+          column-gap: 170px;
+
+}
+
+.num h3 {
+          font-size: 70px;
+          margin-top: 10px;
+          font-weight: 800;
+          color: #f69f0085;
+          margin-left: 10px;
+}
+
+.text {
+          display: flex;
+          margin-left: 10pc;
+          column-gap: 170px;
+
+}
+
+.text h3 {
+          font-size: 12px;
+          margin-top: -53px;
+          font-weight: 800;
+          margin-left: 10px;
+}
+
+.butt {
+          background-color: #f69f0085;
+          border-radius: 30px;
+          padding: 12px 8px;
+          width: 150px;
+          position: relative;
+          top: -150px;
+
+}
+
+/* media queries */
+
+
+
+@media (max-width:1440px) {
+          .head {
+                    position: relative;
+                    top: 150px;
+                    left: 150px;
+          }
+
+          .cardp {
+                    column-gap: 40px;
+                    margin-left: 180px;
+                    margin-top: -40px;
+                    width: 920px;
+          }
+
+          .container {
+                    width: 60%;
+          }
+
+          .para {
+                    margin-left: 118px;
+          }
+
+          .images img {
+                    width: 220px;
+          }
+
+          .images1 img {
+                    width: 220px;
+          }
+
+          .second {
+                    height: 148px;
+          }
+
+          .third {
+                    height: 148px;
+          }
+
+
+          .stock .btn {
+
+
+                    margin-top: -70px;
+                    margin-right: 283px;
+          }
+
+          .stock h5 {
+
+                    margin-left: 190px;
+          }
+
+          .stock h1 {
+                    margin-left: 190px;
+
+          }
+
+          .card {
+                    width: 16rem;
+          }
+
+          .num {
+                    margin-left: 4pc;
+                    column-gap: 140px;
+
+          }
+
+          .text {
+                    margin-left: 10px;
+                    column-gap: 140px;
+          }
+
+          .text h3 {
+                    font-size: 11px;
+                    margin-top: -53px;
+                    font-weight: 800;
+                    margin-left: 38px;
+          }
+
+          .hottest h2 {
+                    margin-top: 15px;
+                    margin-left: 122px;
+          }
+
+          .container1 {
+                    margin-left: 60px;
+          }
+
+          .bussiness h2 {
+                    font-size: 18px;
+          }
+
+}
+
+@media (min-width:1200px)and (max-width:1440) {
+          .head {
+                    position: relative;
+                    top: 150px;
+                    left: 150px;
+          }
+
+          .cardp {
+                    column-gap: 40px;
+                    margin-left: 147px;
+                    margin-top: -40px;
+                    width: 920px;
+          }
+
+          .para {
+                    margin-left: 80px;
+          }
+
+          .container h2 {
+                    margin-left: 70px;
+          }
+
+          .images img {
+                    width: 220px;
+          }
+
+          .images1 img {
+                    width: 220px;
+          }
+
+          .second {
+                    height: 148px;
+          }
+
+          .third {
+                    height: 148px;
+          }
+
+
+          .stock .btn {
+
+
+                    margin-top: -67px;
+                    margin-right: 70px;
+          }
+
+          .stock h5 {
+
+                    margin-left: 130px;
+          }
+
+          .stock h1 {
+                    margin-left: 130px;
+
+          }
+
+          .card {
+                    width: 16rem;
+          }
+
+          .num {
+                    margin-left: 5pc;
+                    column-gap: 160px;
+
+          }
+
+          .hottest h2 {
+
+                    margin-left: 81px;
+          }
+
+          .container1 {
+                    margin-left: 20px;
+          }
+
+
+}
+
+@media (min-width:900px) and (max-width:1200px) {
+          .head {
+                    position: relative;
+                    top: 174px;
+                    left: 50px;
+          }
+
+          .cardp {
+                    column-gap: 31px;
+                    margin-left: 132px;
+                    margin-top: -40px;
+                    width: 702px;
+          }
+
+          .para {
+                    margin-left: 80px;
+                    margin-top: 208px;
+          }
+
+          .images img {
+                    width: 165px;
+          }
+
+          .images1 img {
+                    width: 165px;
+          }
+
+          .second {
+                    height: 109px;
+          }
+
+          .third {
+                    height: 109px;
+          }
+
+
+          .stock .btn {
+
+
+                    margin-top: -67px;
+                    margin-right: 110px;
+          }
+
+          .stock h5 {
+
+                    margin-left: 130px;
+          }
+
+          .stock h1 {
+                    margin-left: 100px;
+                    font-size: 30px;
+
+          }
+
+          .card .btn2 {
+
+                    left: 28%;
+          }
+
+          .card {
+                    width: 16rem;
+          }
+
+          .num {
+                    margin-left: 3pc;
+                    column-gap: 110px;
+
+          }
+
+          .text {
+                    margin-left: 3pc;
+                    column-gap: 110px;
+
+          }
+
+          .hottest h2 {
+
+                    margin-left: 67px;
+          }
+
+          .bussiness h2 {
+                    font-size: 14px;
+          }
+
+          .container1 h2 {
+                    font-size: 18px;
+          }
+
+}
+
+@media (min-width:786px) and (max-width:900px) {
+          .head {
+                    position: relative;
+                    top: 174px;
+                    left: 50px;
+          }
+
+          .head h1 {
+                    font-size: 33px;
+          }
+
+          .cardp {
+                    column-gap: 31px;
+                    margin-left: 132px;
+                    margin-top: -40px;
+                    width: 650px;
+          }
+
+          .container h2 {
+                    font-size: 26px;
+          }
+
+          .container p {
+                    font-size: 12px;
+          }
+
+          .para {
+                    margin-left: 80px;
+                    margin-top: 208px;
+          }
+
+          .images img {
+                    width: 145px;
+          }
+
+          .images1 img {
+                    width: 145px;
+          }
+
+          .second {
+                    height: 100px;
+          }
+
+          .third {
+                    height: 100px;
+          }
+
+
+          .stock .btn {
+
+
+                    margin-top: -67px;
+                    margin-right: 70px;
+          }
+
+          .stock h5 {
+
+                    margin-left: 110px;
+          }
+
+          .stock h1 {
+                    margin-left: 110px;
+                    font-size: 26px;
+
+          }
+
+          .card .btn2 {
+
+                    left: 28%;
+          }
+
+          .card {
+                    width: 16rem;
+          }
+
+          .num {
+                    margin-left: -1pc;
+                    column-gap: 112px;
+                    font-size: 2px;
+
+          }
+
+          .num h3 {
+                    font-size: 54px;
+          }
+
+
+          .text {
+                    margin-left: -1pc;
+                    column-gap: 96px;
+          }
+
+          .hottest h2 {
+
+                    margin-left: 67px;
+          }
+
+          .bussiness h2 {
+                    font-size: 18px;
+                    font-weight: 600;
+          }
+
+          .container1 h2 {
+                    font-size: 18px;
+          }
+
+}
+
+@media (min-width:576px) and (max-width:786px) {
+          .head {
+                    position: relative;
+                    top: 174px;
+                    left: 50px;
+          }
+
+          .head h1 {
+                    font-size: 30px;
+          }
+
+          .head h6 {
+                    font-size: 10px;
+          }
+
+          .cardp {
+                    column-gap: 18px;
+                    margin-left: 120px;
+                    margin-top: -40px;
+                    width: 566px;
+          }
+
+          .para {
+                    margin-left: 72px;
+                    margin-top: 208px;
+          }
+
+          .para h2 {
+                    font-size: 20px;
+          }
+
+          .images img {
+                    width: 125px;
+          }
+
+          .images1 img {
+                    width: 125px;
+          }
+
+          .second {
+                    height: 84px;
+          }
+
+          .third {
+                    height: 84px;
+          }
+
+
+          .stock .btn {
+
+
+                    margin-top: -67px;
+                    margin-right: 70px;
+          }
+
+          .stock h5 {
+
+                    margin-left: 120px;
+          }
+
+          .stock h1 {
+                    margin-left: 120px;
+                    font-size: 20px;
+
+          }
+
+          .card .btn2 {
+
+                    left: 28%;
+          }
+
+          .card {
+                    width: 16rem;
+          }
+
+          .num {
+                    margin-left: -2pc;
+                    column-gap: 123px;
+                    font-size: 22px;
+
+
+          }
+
+          .num h3 {
+                    font-size: 43px;
+          }
+
+          .text h3 {
+                    font-size: 9px;
+          }
+
+          .text {
+                    margin-left: -2pc;
+                    column-gap: 111px;
+
+          }
+
+          .hottest h2 {
+                    font-size: 20px;
+                    margin-left: 67px;
+          }
+
+          .container h2 {
+
+                    font-size: 24px;
+          }
+
+          .container p {
+                    font-size: 14px;
+          }
+
+          .container1 h2 {
+                    font-size: 16px;
+          }
+
+
+}
+
+@media (min-width:400px) and (max-width:576px) {
+
+          html,
+          body {
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    overflow-x: hidden;
+          }
+
+          .main {
+                    height: 500px;
+          }
+
+          .head {
+                    margin-left: -150px;
+                    padding-right: 142px;
+
+          }
+
+          .head h6 {
+                    font-size: 8px;
+          }
+
+          .head h1 {
+                    font-size: 14px;
+          }
+
+          .head .btn {
+                    font-size: 10px;
+          }
+
+          .container h2 {
+                    font-size: 27px;
+                    margin-left: -41px;
+          }
+
+          .container p {
+                    margin-left: -41px;
+          }
+
+          .bussiness h2 {
+                    font-size: 15px;
+                    margin-left: -39px;
+          }
+
+          .hottest h2 {
+                    font-size: 25px;
+                    margin-left: -4px;
+                    margin-bottom: -265px;
+
+          }
+
+
+          .cardp {
+                    column-gap: 31px;
+                    margin-left: -25px;
+                    width: 530px;
+                    display: flex;
+                    flex-direction: column;
+          }
+
+          .card {
+                    margin-top: 277px;
+                    margin-left: 87px;
+          }
+
+          .para {
+                    margin-left: 40px;
+          }
+
+          .para h2 {
+                    font-size: 16px;
+                    margin-left: -27px;
+                    margin-top: 20px;
+          }
+
+          .images img {
+                    width: 266px;
+                    margin-left: -28px;
+          }
+
+          .images1 img {
+                    width: 266px;
+                    margin-left: -28px;
+          }
+
+          .second {
+                    height: 172px;
+          }
+
+          .third {
+                    height: 172px;
+          }
+
+
+          .stock .btn {
+                    margin-top: -54px;
+                    margin-right: -37px;
+                    font-size: 11px;
+          }
+
+          .stock h5 {
+                    margin-left: -14px;
+                    font-size: 12px;
+          }
+
+          .stock h1 {
+                    margin-left: -34px;
+                    font-size: 15px;
+
+          }
+
+          .card {
+                    width: 16rem;
+          }
+
+          .num {
+                    margin-left: 5pc;
+                    column-gap: 170px;
+
+          }
+
+          .num h3 {
+                    font-size: 28px;
+                    margin-top: 10px;
+                    font-weight: 800;
+                    color: #f69f0085;
+                    margin-left: -120px;
+          }
+
+          .text {
+                    column-gap: 130px;
+          }
+
+          .text h3 {
+                    font-size: 6px;
+                    margin-top: -25px;
+                    margin-left: -65px;
+          }
+
+          .container1 h2 {
+                    margin-left: 8px;
+                    font-size: 23px;
+                    margin-bottom: 33px;
+                    margin-top: -18px;
+
+          }
+
+
+
+}
